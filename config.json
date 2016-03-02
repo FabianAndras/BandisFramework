@@ -1,0 +1,42 @@
+{
+    "general": {
+        "titlePrefix": "",
+        "defaultLayout": "default"
+    },
+    "servers": {
+        "dev": "control.hunsinfest.hu",
+        "test": "tapbar.reelweb.hu",
+        "prod": "tapbar.hu"
+    },
+    "database": {
+        "prefix": "",
+        "servers": {
+            "dev": {
+                "host": "localhost",
+                "database": "hunsinfestdb",
+                "user": "hunsinfestsql",
+                "password": "sql89th9m"
+            },
+            "test": {
+                "host": "localhost",
+                "database": "database",
+                "user": "root",
+                "password": "root"
+            },
+            "prod": {
+                "host": "localhost",
+                "database": "database",
+                "user": "root",
+                "password": "root"
+            }
+        }
+    },
+    "routes": {
+        "controller": "Controller",
+        "model": "Model",
+        "view": "View",
+        "styleSheets": "Assets/Css",
+        "javaScripts": "Assets/Js",
+        "layouts": "Assets/Layouts"
+    }
+}
