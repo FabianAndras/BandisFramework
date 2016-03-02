@@ -48,7 +48,7 @@ class BasicSettings {
             'method' => 'index'
         );
         if (isset($url[0]) && strlen($url[0]) > 3) {
-            $prep['controller'] = $url[0];
+            $prep['controller'] = ucfirst($url[0]);
         }
         if (isset($url[1]) && strlen($url[1]) > 3) {
             $prep['method'] = strtolower($url[1]);
